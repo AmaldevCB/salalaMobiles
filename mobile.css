@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Philosopher", sans-serif;
+}
+
+#logo{
+    width: 200px;
+    height: 90px;
+}
+ul{
+    font-size: 1.2rem;
+}
+
+#button{
+    background-color: #ffc107;
+    border: #ffc107 solid;
+}
+#button:hover{
+    background-color: #212529;
+    color:#ffc107;
+}
+#butt{
+    border: #ffc107 solid;
+    background-color: #212529;
+    color:#ffc107;
+}
+#butt:hover{
+    background-color: #ffc107;
+    color: #212529;
+}
+#title{
+    font-weight: 700;
+}
+/* others */
+#other a, #access a{
+    text-decoration: none;
+    font-weight: 700;
+}
+#c-title{
+   font-size: 1.7rem;
+   font-weight: 600;
+}
+/* footer */
+.icons i{
+    color: #ffc107;
+    margin: 10px;
+    font-size: 2rem;
+}
+.icons i:hover{
+    color: cyan;
+}
+
+

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other gadgets</title>
+    <link rel="stylesheet" href="mobile.css">
+    <!--bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- fontawsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Tiny5&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav id="nav" class="navbar bg-dark navbar-expand-lg ">
+        <div class="container-fluid">
+            <img class="ms-4 p-2" id="logo" src="./logo.png" alt="logo">
+            <button id="res-button" class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link  text-warning pe-5" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown mt-1 pe-5">
+                            <button class="btn rounded-0  dropdown-toggle text-warning" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./mobile.html">Smartphones</a></li>
+                                <li><a class="dropdown-item" href="./other.html">Pc & Laps</a></li>
+                                <li><a class="dropdown-item" href="./access.html">Accessories</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item mt-1">
+                        <input type="text" placeholder="Search">
+                        <button id="button" class="btn rounded-0 me-5 py-1 px-2">Go</button>
+                    </li>
+                    <li class="nav-item mt-1">
+                        <button id="butt" class="btn rounded-0  me-5 px-4 py-1">Follow us</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Others-->
+    <div>
+        <h1 class="ms-3 mt-5">Others...</h1>
+        <div id="other" class="row ms-5 me-5">
+            <div class="col-lg-4 col-md-6 mb-3">
+                <a href="#monitor">
+                    <div class="card shadow p-2" style="width: 18rem;">
+                        <img src="https://www.dontwasteyourmoney.com/wp-content/uploads/2019/07/71UFr7eeXZL._SL1500_.jpg"
+                            class="card-img-top img-fluid" alt="Desktop">
+                        <div class="card-body text-center">
+                            <h5 id="c-title" class="card-title">Monitors..</h5>
+                            <p class="card-text text-warning">Upto 40% off..</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+                <a href="#laptop">
+                    <div class="card shadow p-2" style="width: 18rem;">
+                        <img src="https://www.bhphotovideo.com/images/images2500x2500/lenovo_20rd005kus_thinkpad_e15_i7_10510u_8gb_1549114.jpg"
+                            class="card-img-top img-fluid ps-3 pe-3 pb-4" alt="Desktop">
+                        <div class="card-body mb-2 text-center">
+                            <h5 id="c-title" class="card-title">Laptops..</h5>
+                            <p class="card-text text-warning">Upto 50% off..</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+                <a href="#console">
+                    <div class="card shadow" style="width: 18rem;">
+                        <img src="https://clicktobrands.com/wp-content/uploads/2022/02/ps5.png"
+                            class="card-img-top img-fluid ps-5 pe-5 pt-3" alt="Desktop">
+                        <div class="card-body mt-5 mb-3 text-center">
+                            <h5 id="c-title" class="card-title mt-3">Consoles</h5>
+                            <p class="card-text text-warning">Upto 35% off..</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- monitor -->
+    <div id="monitor" class="container-fluid">
+        <h1 id="title" class="ms-5 mt-5">Monitors..</h1>
+        <div>
+            <div class="row me-5 ms-5 mb-3">
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/monitor/r/v/o/-original-imagyahhzh9hpxgx.jpeg?q=70"
+                            class="card-img-top p-2" alt="monitor">
+                        <div class="card-body">
+                            <h5 class="card-title">LG 68.58 cm (27 inch) Full HD IPS Panel</h5>
+                            <p class="card-text">Rs11,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/monitor/a/7/i/27ml600s-w-inbuilt-speaker-hdmi-x-2-vga-port-white-full-hd-27-original-imahfjybdudvjuks.jpeg?q=70"
+                            class="card-img-top p-2" alt="monitor">
+                        <div class="card-body">
+                            <h5 class="card-title">LG 68.58 cm (27 inch) Full HD LED Backlit IPS</h5>
+                            <p class="card-text">Rs.12,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/monitor/i/h/9/-original-imah5c99twbujzar.jpeg?q=70"
+                            class="card-img-top p-2" alt="monitor">
+                        <div class="card-body">
+                            <h5 class="card-title">SAMSUNG 60.96 cm (24 inch) Full HD IPS
+                            </h5>
+                            <p class="card-text">Rs.9,900/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row me-5 ms-5 mb-3">
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/monitor/h/w/b/-original-imah2as5ykxqaqhx.jpeg?q=70"
+                            class="card-img-top p-2" alt="monitor">
+                        <div class="card-body">
+                            <h5 class="card-title">LG UltraGear 60.96 cm (24 inch) Full HD IPS
+                            </h5>
+                            <p class="card-text">Rs.11,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/monitor/h/g/w/-original-imah5c9a6k7wvcnz.jpeg?q=70"
+                            class="card-img-top p-2" alt="monitor">
+                        <div class="card-body">
+                            <h5 class="card-title">SAMSUNG 68.58 cm (27 inch) Curved
+                            </h5>
+                            <p class="card-text">Rs.9,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/ks0onm80/monitor/w/6/6/ha270-um-hw0si-a01-acer-original-imag5zjnk4yad4uz.jpeg?q=70"
+                            class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Acer 68.58 cm (27 inch) Full HD LED Backlit IPS</h5>
+                            <p class="card-text">Rs.9,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- laptop -->
+    <div id="laptop" class="container-fluid">
+        <h1 id="title" class="ms-5 mt-5">Laptops..</h1>
+        <div>
+            <div class="row me-5 ms-5 mb-3">
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/3/g/m/-original-imah3xrqttkdbss4.jpeg?q=70"
+                            class="card-img-top p-2" alt="laptop">
+                        <div class="card-body">
+                            <h5 class="card-title">SAMSUNG Galaxy Book4 Intel Core i5 13th Gen 1335U</h5>
+                            <p class="card-text">Rs49,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/2/g/h/-original-imah5uhrgz7sawng.jpeg?q=70"
+                            class="card-img-top p-2" alt="laptop">
+                        <div class="card-body">
+                            <h5 class="card-title">Lenovo IdeaPad Slim 1 AMD Ryzen 5 Quad Core 7520U</h5>
+                            <p class="card-text">Rs.35,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/a/k/e/fx706hf-ny040w-gaming-laptop-asus-original-imah43cfatfc5eku.jpeg?q=70"
+                            class="card-img-top p-2" alt="laptop">
+                        <div class="card-body">
+                            <h5 class="card-title">ASUS TUF Gaming F17
+                            </h5>
+                            <p class="card-text">Rs.50,900/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row me-5 ms-5 mb-3">
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/monitor/h/w/b/-original-imah2as5ykxqaqhx.jpeg?q=70"
+                            class="card-img-top p-2" alt="laptopr">
+                        <div class="card-body">
+                            <h5 class="card-title">LG UltraGear 60.96 cm (24 inch) Full HD IPS
+                            </h5>
+                            <p class="card-text">Rs.55,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/n/1/w/a324-51-thin-and-light-laptop-acer-original-imah43bv4eqswhpz.jpeg?q=70"
+                            class="card-img-top p-2" alt="laptop">
+                        <div class="card-body">
+                            <h5 class="card-title">Acer Aspire 3 Backlit Intel Core i5 12th Gen 1235U
+                            </h5>
+                            <p class="card-text">Rs.41,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/9/v/w/245-g8-business-laptop-hp-original-imagn4bctguugysg.jpeg?q=70"
+                            class="card-img-top p-2" alt="laptop">
+                        <div class="card-body">
+                            <h5 class="card-title">HP 255 G9 AMD Ryzen 3 Dual Core R3 3250</h5>
+                            <p class="card-text">Rs.25,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- console -->
+    <div id="console" class="container-fluid">
+        <h1 id="title" class="ms-5 mt-5">Gaming Console..</h1>
+        <div>
+            <div class="row me-5 ms-5 mb-3">
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/gamingconsole/z/b/w/-original-imagtk7vfbzqbjg6.jpeg?q=70"
+                            class="card-img-top p-2" alt="console">
+                        <div class="card-body">
+                            <h5 class="card-title">SONY PlayStation5 Console (slim)1024 GB </h5>
+                            <p class="card-text">Rs47,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/gamingconsole/5/n/u/-original-imaghyykrhvewh4y.jpeg?q=70"
+                            class="card-img-top p-2" alt="console">
+                        <div class="card-body">
+                            <h5 class="card-title">SONY PlayStation 5 console 825 GB </h5>
+                            <p class="card-text">Rs.54,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/gamingconsole/b/w/n/-original-imagzf6vtprhm3sz.jpeg?q=70"
+                            class="card-img-top p-2" alt="console">
+                        <div class="card-body">
+                            <h5 class="card-title">SONY PlayStation5 Digital Edition (slim) CFI-2008B01X 1 TB
+                            </h5>
+                            <p class="card-text">Rs.37,900/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row me-5 ms-5 mb-3">
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/gamingconsole/m/l/g/512-series-s-console-ssd-xbox-yes-original-imah2bybkdbhfhsq.jpeg?q=70"
+                            class="card-img-top p-2" alt="console">
+                        <div class="card-body">
+                            <h5 class="card-title">Xbox Series S Console SSD 512 GB
+                            </h5>
+                            <p class="card-text">Rs.31,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/gamingconsole/z/i/o/1024-xbox-series-x-microsoft-yes-original-imah2mfhkrbmgahh.jpeg?q=70"
+                            class="card-img-top p-2" alt="console">
+                        <div class="card-body">
+                            <h5 class="card-title">MICROSOFT Xbox Series X 1024 GB
+                            </h5>
+                            <p class="card-text">Rs.45,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/gamingconsole/s/f/r/2-wireless-controller-xbox-x-s-x-s-windows-10-11-controller-2-original-imagzm9ggvunahfu.jpeg?q=70"
+                            class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">PSS Wireless Controller Xbox X,S</h5>
+                            <p class="card-text">Rs.2,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+   <footer class="bg-dark text-warning p-3 pb-4">
+    <div class="row">
+     <div class="col-lg-4 mb-4">
+       <h3>Contact us</h3>
+       <div class="d-flex justify-content-center align-items-center">
+         <input type="text" placeholder="Email ID" class="form-control rounded-0">
+         <button class="btn btn-warning rounded-0 ms-2">SUBSCRIBE</button>
+       </div>
+     </div>
+     <div class="col-lg-3 mb-4 text-center">
+       <h3>Follow us</h3>
+       <div class="icons">
+         <div>
+           <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+           <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+           <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+         </div>
+         <div>
+           <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+           <a href=""><i class="fa-brands fa-discord"></i></a>
+           <a href=""><i class="fa-brands fa-square-snapchat"></i></a>
+         </div>
+       </div>
+     </div>
+     <div class="col-lg-2 mb-4 text-center">
+        <a  href="./about.html"><h5 class="text-warning">About Us</h5></a>
+        <a  href="./terms.html"><h5 class="text-warning">Terms & Conditions</h5></a>
+        <a  href="./policy.html"><h5 class="text-warning">Privacy Policy</h5></a>
+      </div>
+     <div class="col-lg-3 mb-4 text-center">
+       <a href="#nav"><img class="ms-4 p-2" id="logo" src="./logo.png" alt="logo"></a>
+     </div>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphones</title>
+    <link rel="stylesheet" href="mobile.css">
+    <!--bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- fontawsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Tiny5&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav id="nav" class="navbar bg-dark navbar-expand-lg ">
+        <div class="container-fluid">
+            <img class="ms-4 p-2" id="logo" src="./logo.png" alt="logo">
+            <button id="res-button" class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link  text-warning pe-5" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown mt-1 pe-5">
+                            <button class="btn rounded-0  dropdown-toggle text-warning" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./mobile.html">Smartphones</a></li>
+                                <li><a class="dropdown-item" href="./other.html">Pc & Laps</a></li>
+                                <li><a class="dropdown-item" href="./access.html">Accessories</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item mt-1">
+                        <input type="text" placeholder="Search">
+                        <button id="button" class="btn rounded-0 me-5 py-1 px-2">Go</button>
+                    </li>
+                    <li class="nav-item mt-1">
+                        <button id="butt" class="btn rounded-0  me-5 px-4 py-1">Follow us</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- brands -->
+    <div class="row mt-5 mb-5">
+        <h1 class="ms-5">Brands...</h1>
+        <div class="row ms-5 align-items-center">
+            <div class="col-lg-1"></div>
+    
+            <div class="col-lg-2 col-md-3 col-sm-4 mb-4">
+                <div class="card shadow" style="width: 10rem;">
+                    <a href="#apple"><img
+                            src="https://static.vecteezy.com/system/resources/thumbnails/017/221/775/small_2x/apple-logo-free-png.png"
+                            class="card-img-top" alt="..."></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 mb-4">
+                <div class="card shadow" style="width: 10rem;">
+                    <a href="#samsung"><img
+                            src="https://www.pictureblast.co.uk/wp-content/uploads/2016/02/Samsung-logo-2017-square-768x768.png"
+                            class="card-img-top" alt="..."></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 mb-4">
+                <div class="card shadow p-4" style="width: 10rem;">
+                    <a href="#xiaomi"><img src="https://logospng.org/download/xiaomi/logo-xiaomi-1536.png" class="card-img-top"
+                            alt="..."></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 mb-4">
+                <div class="card shadow p-3" style="width: 10rem;">
+                    <a href="#pixel"><img src="https://th.bing.com/th/id/OIP._8uc-R6MNj6R90sw-4O_OQHaHa?rs=1&pid=ImgDetMain"
+                            class="card-img-top" alt="..."></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 mb-4">
+                <div class="card shadow" style="width: 10rem;">
+                    <a href="#oneplus"><img src="https://www.oneplus.com/content/dam/oasis/page/common/logo/OnePlus_Logo.png"
+                            class="card-img-top" alt="..."></a>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+    <!-- apple -->
+    <div id="apple" class="container-fluid">
+        <h1 id="title" class="ms-5 mt-5">Apple</h1>
+        <div>
+            <div class="row me-5 ms-5 mb-3">
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple Iphone 15(Black,128GB)</h5>
+                            <p class="card-text">Rs.60,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/c/k/-original-imagtc5fuzkvczr7.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple Iphone 15Plus(pink,128GB)</h5>
+                            <p class="card-text">Rs.65,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/k/l/l/-original-imagtc5fz9spysyk.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple Iphone 15(Blue,128GB)</h5>
+                            <p class="card-text">Rs.59,900/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/j/z/3/-original-imagtc5fqyz8tu4c.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple Iphone 15(Green,128GB)</h5>
+                            <p class="card-text">Rs.61,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row me-5 ms-5 mb-3">
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/r/k/a/-original-imah4jyfyrpxfhtk.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple Iphone 16(Teal,128Gb)</h5>
+                            <p class="card-text">Rs.79,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/g/v/p/-original-imah4jyfveygyubc.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple Iphone 16(Teal,128Gb)</h5>
+                            <p class="card-text">Rs.78,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/c/v/p/-original-imah4jyfcjgcghqs.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple Iphone 16(Teal,128Gb)</h5>
+                            <p class="card-text">Rs.79,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/8/w/5/-original-imah4jyfwr3bfjbg.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple Iphone 16(Teal,128Gb)</h5>
+                            <p class="card-text">Rs.79,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- samsung -->
+    <div id="samsung" class="container-fluid">
+        <h1  id="title" class="ms-5 mt-5">Samsung</h1>
+        <div>
+            <div class="row me-5 ms-5 mb-3">
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">SAMSUNG Galaxy A14 5G (Dark Red, 128 GB)</h5>
+                            <p class="card-text">Rs11,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/mobile/y/2/o/-original-imah4sss2hjckcdk.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">SAMSUNG Galaxy A14 5G (Black, 128 GB)</h5>
+                            <p class="card-text">Rs.12,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/mobile/e/r/f/-original-imah56hkgehywn5b.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">SAMSUNG Galaxy F05 (Twilight Blue, 64 GB)
+                            </h5>
+                            <p class="card-text">Rs.9,900/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/mobile/x/k/h/-original-imah5ywff9rr76zh.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">SAMSUNG Galaxy S23 FE (Graphite, 256 GB)
+                            </h5>
+                            <p class="card-text">Rs.37,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row me-5 ms-5 mb-3">
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/mobile/8/v/0/-original-imah5ywfebrs9bfg.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">SAMSUNG Galaxy S23 FE (Mint, 256 GB)
+                            </h5>
+                            <p class="card-text">Rs.37,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/mobile/4/f/r/-original-imah5ywfzzjzfkcn.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">SAMSUNG Galaxy S23 FE (Purple, 256 GB)
+                            </h5>
+                            <p class="card-text">Rs.39,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/mobile/2/a/t/-original-imagnrhknw9pbg3t.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">SAMSUNG Galaxy A54 5G(Black,128Gb)</h5>
+                            <p class="card-text">Rs.9,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/mobile/g/f/i/galaxy-a15-5g-sm-a156ezbnins-samsung-original-imagwkgzv7vs8zd2.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">SAMSUNG Galaxy A15 5G(Black,128Gb)</h5>
+                            <p class="card-text">Rs.8,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Xiaomi -->
+    <div id="xiaomi" class="container-fluid">
+        <h1  id="title" class="ms-5 mt-5">Xiaomi</h1>
+        <div>
+            <div class="row me-5 ms-5 mb-3">
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/m/m/e/-original-imahfpwvvyctag2h.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Xiaomi 14 CIVI (Cruise Blue, 256GB)</h5>
+                            <p class="card-text">Rs.40,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/z/2/z/-original-imahfpwv6yzawcuc.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Xiaomi 14 CIVI (Green, 256GB)</h5>
+                            <p class="card-text">Rs.45,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/d/a/a/11t-pro-5g-hyperphone-mzb0aftin-xiaomi-original-imah27t2qswsutve.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Xiaomi 11T Pro 5G Hyperphone (Moonlight White, 256GB)</h5>
+                            <p class="card-text">Rs.24,900/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/m/q/u/-original-imah34gx5euj4gqz.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Xiaomi 14 CIVI (Pink, 512GB)</h5>
+                            <p class="card-text">Rs.49,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row me-5 ms-5 mb-3">
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/v/t/13c-5g-redmi-13c-5g-redmi-original-imagw6s7zfhb4syx.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">REDMI 13c 5G (Starlight Black, 128 GB)</h5>
+                            <p class="card-text">Rs.10,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/5/u/e/13c-5g-redmi-13c-5g-redmi-original-imagw6s7qmkhz8ed.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">REDMI 13c 5G (Starlight Silver, 128 GB)</h5>
+                            <p class="card-text">Rs.10,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/v/e/a/-original-imahfk4xuk7ntphs.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">REDMI 13C (Stardust Black, 128 GB)</h5>
+                            <p class="card-text">Rs.7,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/u/6/r/-original-imahfk4xenbzxwrh.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">REDMI 13C (Stardust Black, 128 GB)</h5>
+                            <p class="card-text">Rs.7,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- pixel -->
+    <div id="pixel" class="container-fluid">
+        <h1  id="title" class="ms-5 mt-5">Google Pixel</h1>
+        <div>
+            <div class="row me-5 ms-5 mb-3">
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/v/f/d/-original-imagpgx4g2m63gfh.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Google Pixel 7a (Snow, 128 GB)</h5>
+                            <p class="card-text">Rs.32,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/i/d/-original-imagpgx4erjqnpzx.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Google Pixel 7a (Black, 128 GB)</h5>
+                            <p class="card-text">Rs.32,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/a/r/-original-imagtrf9qm3dufq9.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Google Pixel 7a (Coral, 128 GB)</h5>
+                            <p class="card-text">Rs.32,900/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/m/p/j/-original-imah5mtpdzrutn3c.jpeg?q=70" class="card-img-top p-2 mb-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Google Pixel 9 Pro (Obsidian, 256 GB) </h5>
+                            <p class="card-text">Rs.1,09,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row me-5 ms-5 mb-3">
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/6/2/x/pixel-9-ga05844-in-google-original-imah3pfjs25yjvfy.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Google Pixel 9 (Green, 256 GB)</h5>
+                            <p class="card-text">Rs.79,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/r/r/w/pixel-9-ga05842-in-google-original-imah3pfhxtjf5t8q.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Google Pixel 9 (Obsidian, 256 GB)</h5>
+                            <p class="card-text">Rs.79,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/4/q/-original-imah5mtmgaahtr78.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Google Pixel 9 pro(Hazel, 256 GB)</h5>
+                            <p class="card-text">Rs.1,09,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/r/t/d/-original-imah5mtmwj3kwvzt.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Google Pixel 9 pro(Rose, 256 GB)</h5>
+                            <p class="card-text">Rs.1,09,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- oneplus -->
+    <div id="oneplus" class="container-fluid">
+        <h1 id="title" class="ms-5 mt-5">OnePlus</h1>
+        <div>
+            <div class="row me-5 ms-5 mb-3">
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/p/q/-original-imagy5wfcgybpq5x.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">OnePlus 12R (Iron Grey, 256 GB)</h5>
+                            <p class="card-text">Rs.40,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/r/f/q/-original-imagy5wgrbhhbhst.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">OnePlus 12R (Cool Blue, 256 GB)</h5>
+                            <p class="card-text">Rs.40,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/p/r/b/nord-ce-3-lite-5g-ce2099-oneplus-original-imagzj42cctpjjze.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">OnePlus Nord CE 3 Lite 5G</h5>
+                            <p class="card-text">Rs.14,900/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/g/p/d/nord-ce-3-lite-5g-cph2467-oneplus-original-imah4ehbgmz4qzhz.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">OnePlus Nord CE 3 Lite 5G</h5>
+                            <p class="card-text">Rs.14,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row me-5 ms-5 mb-3">
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/r/u/9/-original-imah5wxnktvffhgq.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">OnePlus Nord CE 4 Lite 5G</h5>
+                            <p class="card-text">Rs.16,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/p/m/o/-original-imah5wxz4y4qfgdq.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">OnePlus Nord CE 4 Lite 5G</h5>
+                            <p class="card-text">Rs.16,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/r/n/d/-original-imah5wxzxbsymj4j.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">OnePlus Nord CE 4 Lite 5G</h5>
+                            <p class="card-text">Rs.15,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="card" style="width: 15rem;">
+                        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/6/i/n20-se-n20-oneplus-original-imagta8berf32yru.jpeg?q=70" class="card-img-top p-2" alt="Apple phone">
+                        <div class="card-body">
+                            <h5 class="card-title">OnePlus N20 SE (CELESTIAL BLACK, 128 GB)</h5>
+                            <p class="card-text">Rs.10,999/-</p>
+                            <a href="#" class="btn btn-warning">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+   <footer class="bg-dark text-warning p-3 pb-4">
+    <div class="row">
+     <div class="col-lg-4 mb-4">
+       <h3>Contact us</h3>
+       <div class="d-flex justify-content-center align-items-center">
+         <input type="text" placeholder="Email ID" class="form-control rounded-0">
+         <button class="btn btn-warning rounded-0 ms-2">SUBSCRIBE</button>
+       </div>
+     </div>
+     <div class="col-lg-3 mb-4 text-center">
+       <h3>Follow us</h3>
+       <div class="icons">
+         <div>
+           <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+           <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+           <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+         </div>
+         <div>
+           <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+           <a href=""><i class="fa-brands fa-discord"></i></a>
+           <a href=""><i class="fa-brands fa-square-snapchat"></i></a>
+         </div>
+       </div>
+     </div>
+     <div class="col-lg-2 mb-4 text-center">
+        <a  href="./about.html"><h5 class="text-warning">About Us</h5></a>
+        <a  href="./terms.html"><h5 class="text-warning">Terms & Conditions</h5></a>
+        <a  href="./policy.html"><h5 class="text-warning">Privacy Policy</h5></a>
+      </div>
+     <div class="col-lg-3 mb-4 text-center">
+        <a href="#nav"><img class="ms-4 p-2" id="logo" src="./logo.png" alt="logo"></a>
+     </div>
+    </div>
+  </footer>
+</body>
+
+</html>
